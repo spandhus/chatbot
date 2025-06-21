@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #header {
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width:768px) {
+    #header{
+      width:100%;
+      height:max-content;
+    }
+    
+  }
+  
+  #nav {
+    width: 800px;
+    height: 70px;
+    background-color: rgba(238, 130, 238, 0.152);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right:20px ;
+  }
+  @media (max-width:768px) {
+    #nav{
+      width:100%;
+      height:max-content;
+      display:flex;
+      flex-direction: column;
+      gap:10px;
+      padding:10px;
+    }
+    
+  }
+  
+  #main {
+    width: 800px;
+    height: 320px;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+  }
+  @media (max-width:768px) {
+    #main{
+      width:100px;
+      height:max-content;
+    }
+    
+  }
+  #footer {
+    width: 800px;
+    height: 80px;
+  }
+  
+  #logo {
+    width: 250px;
+    height: 150px;
+  }
+  #nav-a{
+    text-decoration: none;
+    font-size: 20px;
+    color:bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #head{
+    margin-top:60px;
+    color:white;
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #description{
+    color:white;
+    font-size:20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:10px;
+  }
+  @media (max-width:768px) {
+
+    #description{
+      max-width:280px;
+    }
+    
+  }
+  #button{
+    margin-top:25px;
+    padding:14px;
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+  }
+  @media (max-width:768px) {
+    #button{
+      font-size:15px;
+      padding:7px;
+      border-radius:10px;
+    }
+    
+  }
+  #footer{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  @media (max-width:768px) {
+    #footer{
+      width:100%;
+    }
+    
+  }
+  @media (max-width:768px) {
+    #copyright{
+     font-size: 12px;;
+    }
+    
+  }
+  #copyright{
+    color:white;
+  }
+  #insta{
+    color:beige;
+    text-decoration:none;
+    padding:15px;
+    border-radius: 15px;
+    background-color:black;
+    font-size:20px;
+
+
+  }
+  @media (max-width:768px) {
+    #insta{
+      font-size: 15px;
+      padding: 7px;
+    border-radius:10px;    }
+    
+  }
+  #youtube{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 20px;
+  }
+  @media (max-width:768px) {
+    #youtube{
+      width:700px;
+    }
+    
+  }
+  #maps{
+    margin-top: 20px;
+    border-radius:20px;
+    margin-bottom: 20px ;
+  }
+  @media (max-width:768px) {
+    #maps{
+      width:700px;
+  }
+    
+  }
